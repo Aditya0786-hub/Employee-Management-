@@ -9,11 +9,9 @@ const CompleteTask = ({data}) => {
         <h4 className='text-sm'>{data.date}</h4>
         </div>
         <h2 className='mt-5 text-xl font-semibold'>{data.title}</h2>
-         <p>{data.description}</p>
-        
+         <p>{data.description}</p>     
         <div  className='mt-2'>
         <button className='bg-green-500 w-full px-2 py-1 text-sm'>Completed Task</button>
-   
         </div>
       </div>
     </div>
